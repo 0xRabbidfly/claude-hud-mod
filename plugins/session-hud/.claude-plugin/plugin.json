@@ -1,0 +1,10 @@
+{
+  "name": "session-hud",
+  "version": "1.1.6",
+  "description": "Sidebar with workspace, git changes and recent commits, model/effort, a context bar, rate-limit usage and skills, drawn as a transit line",
+  "author": { "name": "0xRabbidfly" },
+  "repository": "https://github.com/0xRabbidfly/claude-hud-mod",
+  "license": "MIT",
+  "keywords": ["hud", "sidebar", "statusline", "context", "git"],
+  "types": "./types/index.d.ts"
+}

@@ -1,0 +1,7 @@
+# Laid by Claude Code at every load of a plugin folder; regenerated, never committed.
+.claude-plugin/types/
+plugins/*/.claude-plugin/types/
+node_modules/
+
+# Coverage report, rebuilt by `npm run coverage` in tools/coverage
+tools/coverage/report/

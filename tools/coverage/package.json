@@ -1,0 +1,15 @@
+{
+  "name": "plugin-coverage",
+  "private": true,
+  "description": "Line and branch coverage for the plugins' pure modules: runs their tests under Vitest with V8 coverage.",
+  "type": "module",
+  "scripts": {
+    "coverage": "vitest run --coverage",
+    "typecheck": "tsc -p ../../plugins/session-hud"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^5.0.3",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.3"
+  }
+}
